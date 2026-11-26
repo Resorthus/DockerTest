@@ -1,0 +1,7 @@
+# Normalize line endings; keep shell-style files LF so they work inside Linux containers
+* text=auto
+Dockerfile text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.sh text eol=lf
+*.jpg binary
